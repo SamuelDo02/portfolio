@@ -97,3 +97,18 @@ figcaption > * {
     text-decoration: none;
     color: var(--notes-color);
 }
+
+@media screen and (max-width: 1150px) {
+    main {
+        margin: 0 7% 0 7%;
+    }
+
+    .vsplit {
+        flex-direction: column;
+        gap: 3vh;
+    }
+
+    .vsplit > * {
+        width: 100%;
+    }
+}
