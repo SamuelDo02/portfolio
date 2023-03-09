@@ -1,17 +1,23 @@
-// Dependencies: JQuery
-// Assumes: Loaded into HTML file in website root
+function include_general_head() {
 
-// Load common head
-$.get("common/head.html", function(head) {
-    $('head').prepend(head)
-});
+}
 
-// Load common nav
-$.get("common/nav.html", function(nav) {
-    $('body').prepend(nav)
-});
+function include_general_header() {
 
-// Load common footer
-$.get("common/footer.html", function(footer) {
-    $('body').append(footer)
-});
+}
+
+function include_general_footer() {
+
+}
+
+function include_writing_head() {
+
+}
+
+function include_writing_header() {
+
+}
+
+function include_writing_footer() {
+    
+}

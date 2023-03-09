@@ -1,0 +1,45 @@
+:root {
+    --accent-color: rgb(0, 193, 174);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p, a {
+    font-family: 'Merriweather', serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 2.5% 0 2.5% 0;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+
+    width: 40%;
+}
+
+.nav-links > a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    padding: 3px 0 3px 0;
+}
+
+.nav-links > a:hover {
+    color: var(--accent-color);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav-links-link--selected {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
