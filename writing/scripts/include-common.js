@@ -16,7 +16,7 @@ function include_head() {
 
     const general_style = document.createElement('link');
     general_style.setAttribute('rel', 'stylesheet');
-    general_style.setAttribute('href', '/portfolio/writing/styles/general.css');
+    general_style.setAttribute('href', '/writing/styles/general.css');
 
     const head = document.getElementsByTagName('head').item(0)
     head.appendChild(viewport_tag);
@@ -31,7 +31,7 @@ function include_header() {
     
     const nav_logo = document.createElement('img');
     nav_logo.setAttribute('class', 'nav-logo');
-    nav_logo.setAttribute('src', '/portfolio/writing/images/logo.png');
+    nav_logo.setAttribute('src', '/writing/images/logo.png');
 
     const nav_links = document.createElement('div');
     nav_links.setAttribute('class', 'nav-links');
@@ -47,7 +47,7 @@ function include_header() {
 
     const writing = document.createElement('a');
     writing.setAttribute('class', 'nav-links-link--selected');
-    writing.setAttribute('href', '/portfolio/writing/index.html');
+    writing.setAttribute('href', '/writing/index.html');
     writing.appendChild(document.createTextNode('Writing'));
 
     const contact = document.createElement('a');
