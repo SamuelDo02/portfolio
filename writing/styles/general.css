@@ -72,7 +72,7 @@ main {
 }
 
 footer {
-    padding: 6.5% 10% 2.5% 10%;
+    padding: 6vh 10% 2vh 10%;
 }
 
 .vsplit {
@@ -130,7 +130,7 @@ figcaption > * {
     }
 
     footer {
-        padding: 6.5% 5% 6.5% 5%;
+        padding: 6vh 5% 2vh 5%;
     }
 
     .vsplit {
