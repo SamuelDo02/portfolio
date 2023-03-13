@@ -31,7 +31,7 @@ function include_header() {
     
     const nav_logo = document.createElement('img');
     nav_logo.setAttribute('class', 'nav-logo');
-    nav_logo.setAttribute('src', '/portfolio/writing/images/logo.svg');
+    nav_logo.setAttribute('src', '/portfolio/writing/images/logo.png');
 
     const nav_links = document.createElement('div');
     nav_links.setAttribute('class', 'nav-links');
