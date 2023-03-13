@@ -17,4 +17,11 @@
 .raindrops-on-fallen-branches-thumbnail {
     background-image: url('/writing/images/raindrops-on-fallen-branches-background.jpg');
     background-size: cover;
+    background-position: center;
+}
+
+.shackles-of-frost-thumbnail {
+    background-image: url('/writing/images/shackles-of-frost-background.jpg');
+    background-size: cover;
+    background-position: center;
 }
