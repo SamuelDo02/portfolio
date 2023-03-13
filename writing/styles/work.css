@@ -25,3 +25,10 @@
     padding: 1.5%;
     border: 1px solid black;
 }
+
+@media screen and (max-width: 1000px) {
+    .work-container {
+        padding: 3%;
+        margin: 3%;
+    }
+}
