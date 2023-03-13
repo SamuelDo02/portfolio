@@ -1,0 +1,27 @@
+.work {
+    color: white;
+    width: 100%;
+}
+
+.work-container {
+    display: inline-flex;
+    flex-flow: column;
+
+    padding: 5%;
+    margin: 5%;
+    background-color: var(--translucent-black);
+}
+
+.work-attribution {
+    color: var(--notes-color--bright);
+}
+
+.work-thumbnail {
+    padding: 3%;
+}
+
+.work-thumbnail-text {
+    background-color: var(--background-color);
+    padding: 1.5%;
+    border: 1px solid black;
+}

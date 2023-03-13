@@ -5,5 +5,16 @@
 }
 
 .header-text {
-    gap: 4vh;
+    gap: 2vh;
+}
+
+.latest-works {
+    display: flex;
+    flex-flow: column;
+    gap: 1.5vh;
+}
+
+.raindrops-on-fallen-branches-thumbnail {
+    background-image: url('/portfolio/writing/images/raindrops-on-fallen-branches-background.jpg');
+    background-size: cover;
 }
