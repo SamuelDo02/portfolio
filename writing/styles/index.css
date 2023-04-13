@@ -4,10 +4,6 @@
     aspect-ratio: 1 / 1;
 }
 
-.header-text {
-    gap: 2vh;
-}
-
 .latest-works {
     display: flex;
     flex-flow: column;

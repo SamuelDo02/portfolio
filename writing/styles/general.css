@@ -35,7 +35,7 @@ nav {
     align-items: center;
     justify-content: space-around;
 
-    padding: 3.5% 0 3.5% 0;
+    padding: 5vh 0 5vh 0;
 }
 
 .nav-links {
@@ -72,7 +72,7 @@ main {
 }
 
 footer {
-    padding: 6vh 10% 2vh 10%;
+    padding: 6vh 10% 3vh 10%;
 }
 
 .vsplit {
@@ -123,6 +123,7 @@ figcaption > * {
 
     main {
         margin: 0 4% 0 4%;
+        gap: 3vh;
     }
 
     .nav-links {
@@ -130,12 +131,12 @@ figcaption > * {
     }
 
     footer {
-        padding: 6vh 5% 2vh 5%;
+        padding: 6vh 5% 3vh 5%;
     }
 
     .vsplit {
         flex-direction: column;
-        gap: 6vh;
+        gap: 3vh;
     }
 
     .vsplit > * {
@@ -146,9 +147,10 @@ figcaption > * {
         align-items: center;
     }
 }
-
+/*
 @media screen and (max-width: 600px) {
     p {
         font-size: 12px;
     }
 }
+*/
